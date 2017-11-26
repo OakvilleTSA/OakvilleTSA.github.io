@@ -22,3 +22,37 @@ canvas {
     left: 0;
     bottom: 0;
 }
+
+.navbar {
+  display: flex;
+  height: 10%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  padding: 0 30px;
+}
+
+.jumbotron {
+  display: flex;
+  background: rgb(200, 54, 54);
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://f001.backblazeb2.com/file/TranslucentLeaf-Website/3dwork/moneytree/Promo+Shot.jpg');
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  height: 600px
+}
+
+.jumbotron-text {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%
+}
+
+.center-text {
+  text-align: center;
+}
