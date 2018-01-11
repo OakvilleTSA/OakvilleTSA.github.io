@@ -3,3 +3,5 @@ Oakville TSA's GitHub Pages for newsletters, videos, and blog posts from people 
 
 ### TODO:
 * Giant rewrite
+* Add mission statement to front page + recent blogs/newsletters
+* Add section with official TSA info (competitions, quick history)
