@@ -61,11 +61,3 @@ canvas {
     /*Used to add spacing between content and edge of browser. Applies to about everything but stuff like the navbar or the jumbotron*/
     margin: 0 10%;
 }
-
-#singleline {
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50%;
-}
