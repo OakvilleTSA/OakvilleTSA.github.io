@@ -11,8 +11,21 @@ body {
 
 div {
     height: 100%;
+    position: relative;
 }
 
+a {
+   z-index:10;
+   position: relative;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+    
 canvas {
     position: absolute;
     width: 100%;
