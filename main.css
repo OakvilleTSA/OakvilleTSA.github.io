@@ -56,3 +56,8 @@ canvas {
 .center-text {
   text-align: center;
 }
+
+.margin {
+    /*Used to add spacing between content and edge of browser. Applies to about everything but stuff like the navbar or the jumbotron*/
+    margin: 0 10%;
+}
