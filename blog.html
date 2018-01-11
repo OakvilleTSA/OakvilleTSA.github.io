@@ -11,14 +11,34 @@
 </head>
 
 <body>
-    <div class="center-text">
-        <h1>Blog comming soon!</h1>
-        <!-- MDL Spinner Component with Single Color -->
-        <a href="https://github.com/OakvilleTSA/OakvilleTSA.github.io" target="_blank">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-                Progress
-            </button>
-        </a>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Oakville TSA</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
+                    <a class="mdl-navigation__link" href="#">Showcase</a>
+                </nav>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!--Content for blog goes here-->
+                <div class="center-text">
+                    <h1>Blog comming soon!</h1>
+                    <a href="https://github.com/OakvilleTSA/OakvilleTSA.github.io" target="_blank">
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                            Progress
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 
