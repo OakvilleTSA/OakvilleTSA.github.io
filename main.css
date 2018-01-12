@@ -18,6 +18,7 @@ svg {
 .navbar {
     display: flex;
     height: 10%;
+    margin-bottom: 0px;
 }
 
 .navigation {
