@@ -32,7 +32,7 @@ svg {
 .jumbotron {
     display: flex;
     background: rgb(200, 54, 54);
-    background: linear-gradient( rgba(0, 0, 0, 25), rgba(0, 0, 0, 25)), url('https://f001.backblazeb2.com/file/TranslucentLeaf-Website/3dwork/moneytree/Promo+Shot.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('https://f001.backblazeb2.com/file/TranslucentLeaf-Website/3dwork/moneytree/Promo+Shot.jpg');
     background-size: cover;
     background-position: center;
     color: whitesmoke;
