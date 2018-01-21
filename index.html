@@ -13,33 +13,35 @@
 
 <body>
     <!-- Navbar -->
-    <div class="navbar container-fluid" style="margin-bottom: 0px">
-        <svg width="100%" height="90">
-            <rect width="100%" height="auto" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(255,255,255)" />
-            Sorry, your browser does not support inline SVG.
-        </svg>
-        <b class="col-md-4"><h1>Oakville TSA</h1></b>
-        <div class="navigation col-md-8">
-            <a href="about.html"><h2>About</h2></a>
-            <a href="blog.html"><h2>Blog</h2></a>
-            <a href="#"><h2>Showcase</h2></a>
-            <a href="https://github.com/OakvilleTSA"><h2>GitHub</h2></a>
-        </div>
-    </div>
-    <!-- Featured section-->
-    <div class="jumbotron container-fluid">
-        <div class="container-fluid jumbotron-text" style="margin-right: 0px">
-            <h1 class="center-text" ;style="color:white;">Welcome!</h1>
-            <h2 class="center-text" ;style="color:white;">Website under construction!</h2>
-            <h3 class="center-text" ;style="color:white;">Check back here soon for future updates and site upgrades</h3>
-        </div>
-    </div>
-    <!-- Feed -->
-    <div class="container=fluid">
-      <h1 class="center-text">Recent</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Oakville TSA</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">About</a>
+                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
+                    <a class="mdl-navigation__link" href="#">Showcase</a>
+                    <a class="mdl-navigation__link" href="https://github.com/OakvilleTSA">GitHub</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Featured section-->
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!-- Your content goes here -->
+                <div class="margin">
+                    <h1 class="center-text" ;style="color:white;">Welcome!</h1>
+                    <h2 class="center-text" ;style="color:white;">Website under construction!</h2>
+                    <h3 class="center-text" ;style="color:white;">Check back here soon for future updates and site upgrades</h3>
+                </div>
+            </div>
+            <!-- Feed -->
+            <div class="container=fluid">
+                <h1 class="center-text">Recent</h1>
+            </div>
+        </main>
     </div>
 </body>
 
 </html>
-
-<!-- A lot of this page uses the bootstrap framework but we can work without it if that is desired. -->
