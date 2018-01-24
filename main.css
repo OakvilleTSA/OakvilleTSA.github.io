@@ -67,3 +67,7 @@ svg {
     -webkit-flex-direction: column;
     flex-direction: column;
 }
+
+.monospace {
+    font-family: 'Roboto Mono', monospace;
+}
