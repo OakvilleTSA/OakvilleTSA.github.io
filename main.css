@@ -11,6 +11,10 @@ b {
    position: relative;
 }
 
+td {
+    padding: 50px;
+}
+
 svg {
     position: absolute;
     left: 0;
@@ -22,6 +26,19 @@ svg {
     display: flex;
     height: 10%;
     margin-bottom: 0px;
+}
+
+.blog-card {
+    width: 500px;
+    height: 150px;
+    background-size:cover;
+    background-position: 50%;
+    display:block;
+    background-color:grey;
+}
+
+.blog-card-container {
+    padding: 15px;
 }
 
 .navigation {
