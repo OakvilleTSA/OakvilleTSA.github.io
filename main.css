@@ -4,11 +4,16 @@
 a {
    z-index:10;
    position: relative;
+   color: black;
 }
 
 b {
    z-index:10;
    position: relative;
+}
+
+td {
+    padding: 50px;
 }
 
 svg {
@@ -22,6 +27,37 @@ svg {
     display: flex;
     height: 10%;
     margin-bottom: 0px;
+}
+
+.blog-flex {
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.blog-card {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.blog-card-image {
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+    background-position: 50%;
+    display: block;
+    background-color: grey;
+}
+
+.blog-card-text {
+    width: 400px;
+    height: 75px;
+    color: black;
+    background-color: lightgrey;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
 .navigation {
