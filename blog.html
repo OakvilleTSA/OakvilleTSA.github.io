@@ -9,30 +9,28 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-amber.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" onclick="location.href='index'">Oakville TSA</span>
-                <!-- Add spacer, to align navigation to the right -->
+                <span class="mdl-layout-title" style="font-family: 'Roboto Mono', monospace; font-weight: bold;">Oakville TSA</span>
                 <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
+                <!-- Large-screen navigation -->
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="about">About</a>
-                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="blog">Blog</a>
-                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="showcase">Showcase</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="about.html">About</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="blog.html">Blog</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="showcase.html">Showcase</a>
                     <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="https://github.com/OakvilleTSA">GitHub</a>
                 </nav>
             </div>
         </header>
-        <div class="mdl-layout__drawer">
+        <!-- Small-screen navigation -->
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <span class="mdl-layout-title">Navigation</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="about.html">About</a>
