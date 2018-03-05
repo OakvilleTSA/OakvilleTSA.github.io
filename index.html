@@ -14,19 +14,32 @@
 
 <body>
     <!-- Navbar -->
+    <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <a class="mdl-layout-title" href="index.html" style="color: black;">Oakville TSA</a>
+                <!-- Title -->
+                <span class="mdl-layout-title" style="font-family: 'Roboto Mono', monospace; font-weight: bold;">Oakville TSA</span>
+                <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                    <a class="mdl-navigation__link" href="showcase.html">Showcase</a>
-                    <a class="mdl-navigation__link" href="https://github.com/OakvilleTSA">GitHub</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="about">About</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="blog">Blog</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="showcase">Showcase</a>
+                    <a class="mdl-navigation__link" style="font-family: 'Roboto Mono', monospace; font-weight: bold;" href="https://github.com/OakvilleTSA">GitHub</a>
                 </nav>
             </div>
         </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Navigation</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#">Under Construction...</a>
+                <a class="mdl-navigation__link" href="#">Under Construction...</a>
+                <a class="mdl-navigation__link" href="#">Under Construction...</a>
+                <a class="mdl-navigation__link" href="#">Under Construction...</a>
+            </nav>
+        </div>
         <!-- Featured section-->
         <main class="mdl-layout__content">
             <div class="page-content">
@@ -37,12 +50,6 @@
                     <h3>Check back here soon for future updates and site upgrades</h3>
                 </div>
             </div>
-            <!-- Feed -->
-            <!--
-            <div class="container=fluid">
-                <h1 class="center-text">Recent</h1>
-            </div>
-            -->
         </main>
     </div>
 </body>
