@@ -1,5 +1,7 @@
 /*REMOVED CSS TO TEST MDL AND HOW TO MAKE IT RESPONSIVE*/
 
+
+/*Someone please label the function of these. Thanks ~Tommy*/
 a {
     z-index: 10;
     color: black;
@@ -17,7 +19,7 @@ svg {
     z-index: 1;
 }
 
-/*Blog card css*/
+/*Blog card css for the blog page*/
 
 .blog-flex {
     align-self: center;
@@ -45,18 +47,23 @@ svg {
     height: 75px;
     color: black;
     background-color: lightgrey;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 18px;
     text-align: center;
+    padding-top: 15px;
 }
 
+/*Font styling*/
 .center-text {
     text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
 .margin {
-    /*Used to add spacing between content and edge of browser. Applies to about everything but stuff like the navbar or the jumbotron
-    Change the layout__content class to Flex (instead of inline-block) to allow spacer to work. */
+    /*Change the layout__content class to Flex (instead of inline-block) to allow spacer to work. */
     .mdl-layout__content {
         display: -webkit-flex;
         display: flex;
