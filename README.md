@@ -9,4 +9,4 @@ Oakville TSA's GitHub Pages for newsletters, videos, and blog posts from people 
 * Archived work from competitions
 
 #### Done:
-* A consistent theme/design language [MDL]
+* A consistent theme/design language
